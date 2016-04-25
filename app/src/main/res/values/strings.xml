@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">CS329E_HWK4</string>
+    <string name="title_activity_maps">Map</string>
+    <string-array name="food_places">
+        <item>JCL/J2 Dining</item>
+        <item>Kinsolving Dining</item>
+        <item>SAC Chik-Fil-A</item>
+    </string-array>
 </resources>

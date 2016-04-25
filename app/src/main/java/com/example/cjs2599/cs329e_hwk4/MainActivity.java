@@ -55,7 +55,17 @@ public class MainActivity extends Activity implements OnItemSelectedListener {
                 }
             }
         });
-        
+
+        mapsBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (v.getId() == mapsBTN.getId()) {
+                    Intent i = new Intent(MainActivity.this, FoodActivity.class);
+//                    i.setData(Uri.parse("http://www.youtube.com/watch?v=kf30sHwKudI"));
+                    startActivity(i);
+                }
+        }});
+
         //mapsBTN.setOnClickListener(this);
 
         List<String> categories = new ArrayList<>();

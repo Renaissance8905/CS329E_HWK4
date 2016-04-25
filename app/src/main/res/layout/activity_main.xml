@@ -45,7 +45,7 @@
         <Button
             android:layout_width="fill_parent"
             android:layout_height="87dp"
-            android:text="MAPS"
+            android:text="Places to Eat"
             android:id="@+id/button2" />
     </LinearLayout>
 </RelativeLayout>
